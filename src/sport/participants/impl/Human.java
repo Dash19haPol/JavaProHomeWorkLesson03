@@ -1,4 +1,11 @@
 package sport.participants.impl;
 
-public class Human {
+import sport.participants.Participant;
+
+public class Human extends Participant {
+
+    public Human(String name, int limitRun, int limitJump) {
+        super(name, limitRun, limitJump);
+    }
 }
+
